@@ -33,16 +33,17 @@ graph TD
     H --> I
     I --> J[Final Output]
     
-    style A fill:#f9d79b,stroke:#f39c12,stroke-width:2px
-    style B fill:#aed6f1,stroke:#3498db,stroke-width:2px
-    style C fill:#aed6f1,stroke:#3498db,stroke-width:2px
-    style D fill:#aed6f1,stroke:#3498db,stroke-width:2px
-    style E fill:#aed6f1,stroke:#3498db,stroke-width:2px
-    style F fill:#f5b7b1,stroke:#e74c3c,stroke-width:2px
-    style G fill:#d5f5e3,stroke:#2ecc71,stroke-width:2px
-    style H fill:#d5f5e3,stroke:#2ecc71,stroke-width:2px
-    style I fill:#aed6f1,stroke:#3498db,stroke-width:2px
-    style J fill:#f9d79b,stroke:#f39c12,stroke-width:2px
+    style A fill:#f9d79b,stroke:#f39c12,stroke-width:2px    
+    style B fill:#aed6f1,stroke:#3498db,stroke-width:2px     
+    style C fill:#aed6f1,stroke:#3498db,stroke-width:2px     
+    style D fill:#aed6f1,stroke:#3498db,stroke-width:2px    
+    style E fill:#aed6f1,stroke:#3498db,stroke-width:2px     
+    style F fill:#f5b7b1,stroke:#e74c3c,stroke-width:2px     
+    style G fill:#d5f5e3,stroke:#2ecc71,stroke-width:2px    
+    style H fill:#d5f5e3,stroke:#2ecc71,stroke-width:2px    
+    style I fill:#aed6f1,stroke:#3498db,stroke-width:2px    
+    style J fill:#f9d79b,stroke:#f39c12,stroke-width:2px     
+
 
 ## Quick Start
 
