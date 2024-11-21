@@ -57,7 +57,8 @@ graph TD
    nextflow run /path/to/pipeline -profile test,YOURPROFILE --outdir <OUTDIR>
    ```
 
-## To run this pipeline with Bracken for multiple taxonomic levels, you would use:
+## To run this pipeline with Bracken for multiple taxonomic levels, you would use:     
+
   ```bash
   nextflow run main.nf -profile conda \
     --input 'path/to/your/files/*.{fastq,bam}' \
