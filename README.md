@@ -7,7 +7,7 @@
 
 ## Introduction
 
-This pipeline is designed for the analysis of rabies data using Pacbio MinION sequencing. It performs quality control, species identification, abundance estimation, SNP calling, and annotation.
+This pipeline is designed for the analysis of rabies data using Pacbio or MinION sequencing data. It performs quality control, species identification, abundance estimation, SNP calling, and annotation.
 
 ## Prerequisites
 Nextflow is needed. The details of installation can be found at https://github.com/nextflow-io/nextflow. For HiPerGator users, its installation is not needed. 
