@@ -64,4 +64,5 @@ The Kraken2/Bracken Refseq index--PlusPF is needed. Please download PlusPF index
 ```bash
 sbatch ./lyssa.sh
 ```
-#### Note: If you want to get email notification when the pipeline running ends, please input your email address in the line "#SBATCH --mail-user=<EMAIL>" in the batch file that you will run (namely, pensacola.sh).  
+#### Note:      
+If you want to get email notification when the pipeline running ends, please input your email address in the line "#SBATCH --mail-user=<EMAIL>" in the file lyssa.sh.  
