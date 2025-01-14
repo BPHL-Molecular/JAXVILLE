@@ -22,15 +22,14 @@ This pipeline is designed for the analysis of rabies data using Pacbio MinION se
 
 ```mermaid
 graph TD
-    A[Input: FASTQ/BAM] --> B[Quality Control]
-    B --> C[Species Identification]
-    C --> D[Species Abundance Estimation]
-    A --> E[Read Alignment]
-    E --> F{SNP Calling}
-    F -->|Option 1| G[Sniffles]
-    F -->|Option 2| H[BCFtools]
-    G --> I[Variant Annotation]
-    H --> I
+    A[Input: BAM] --> B[Quality Control]
+    B --> C[Bam to Fastq]
+    C --> D[De novo assembly]
+    D --> E[Species Identification]
+    E --> F[Species Abundance Estimation]
+    F --> G[Read Alignment]
+    G --> H[Variant Calling]
+    H --> I[Variant Annotation]
     I --> J[Final Output]
     
     style A fill:#f9d79b,stroke:#f39c12,stroke-width:2px    
