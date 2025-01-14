@@ -36,7 +36,7 @@ The Kraken2/Bracken Refseq index--PlusPF is needed. Please download PlusPF index
 1. Quality control ([`LongQC`](https://github.com/yfukasawa/LongQC))
 2. Species identification ([`Kraken2`](https://ccb.jhu.edu/software/kraken2/))
 3. Species abundance estimation ([`Bracken`](https://ccb.jhu.edu/software/bracken/))
-4. Read alignment ([`Minimap2`](https://github.com/lh3/minimap2))
+4. Read alignment ([`pbmm2`](https://www.pacb.com/support/software-downloads/))
 5. SNP calling ([`BCFtools`](https://samtools.github.io/bcftools/bcftools.html))
 6. Variant annotation ([`SnpEff`](https://pcingola.github.io/SnpEff/))
 
