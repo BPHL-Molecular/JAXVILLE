@@ -26,10 +26,10 @@ The Kraken2/Bracken Refseq index--PlusPF is needed. Please download PlusPF index
 
 ## Recommended conda environment installation
    ```bash
-   conda create -n LYSSA -c conda-forge python=3.10 pandas
+   conda create -n JAXVILLE -c conda-forge python=3.10 pandas
    ```
    ```bash
-   conda activate LYSSA
+   conda activate JAXVILLE
    ```
 ## Pipeline summary
 
